@@ -25,7 +25,7 @@ least_coins_hash = {:pennies => 1, :nickels => 5, :dimes => 10, :quarters => 25}
   end
 end
 
-puts least_coins(29)
+return least_coins(29)
 
 
 
