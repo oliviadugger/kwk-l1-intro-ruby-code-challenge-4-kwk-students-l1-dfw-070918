@@ -23,6 +23,7 @@ least_coins_hash = {:pennies => 1, :nickels => 5, :dimes => 10, :quarters => 25}
   least_coins_hash[:pennies] += 1
   cents = cents - 1
   end
+return least_coins_hash
 end
 
 puts least_coins(29)
