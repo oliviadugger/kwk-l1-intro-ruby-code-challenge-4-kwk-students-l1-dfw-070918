@@ -2,7 +2,7 @@
 
 def least_coins(cents)
   
-least_coins_hash = {:pennies => 1, :nickels => 5, :dimes => 10, :quarters => 25}
+least_coins_hash = {:pennies => 0, :nickels => 0, :dimes => 0, :quarters => 0}
 
   while cents >= 25
   least_coins_hash[:quarters] += 1
